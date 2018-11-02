@@ -33,53 +33,13 @@ public class ClassroomDBRepository implements ClassroomRepository {
 		return util.getJSONForObject(classes);
 	}
 
-//	@Override
-//	@Transactional(REQUIRED)
-//	public String addTrainer(String trainer) {
-//		Accounts aAccount = util.getObjectForJSON(trainer, Trainees.class);
-//		manager.persist(aAccount);
-//		return "{\"message\": \"Account has been sucessfully added\"}";
-//	}
-//
-//	@Override
-//	@Transactional(REQUIRED)
-//	public String updateTrainer(Long id, String trainer) {
-//		Trainees aAccount = util.getObjectForJSON(trainer, Trainees.class);
-//		Trainees accountInDB = findTrainer(id);
-//		accountInDB.setFirstName(aAccount.getFirstName());
-//		accountInDB.setLastName(aAccount.getLastName());
-//		accountInDB.setAccountNumber(aAccount.getAccountNumber());
-//
-//		return "{\"message\": \"Account has been sucessfully updated\"}";
-//	}
-//
-//	@Override
-//	@Transactional(REQUIRED)
-//	public String deleteAccount(Long id) {
-//		Accounts AccountInDB = findAccount(id);
-//		if (AccountInDB != null) {
-//			manager.remove(AccountInDB);
-//		}
-//		return "{\"message\": \"Account sucessfully deleted\"}";
-//	}
-//
-//	private Accounts findAccount(Long id) {
-//		return manager.find(Accounts.class, id);
-//	}
-//
-//	public void setManager(EntityManager manager) {
-//		this.manager = manager;
-//	}
+
 
 	public void setUtil(JSONUtil util) {
 		this.util = util;
 	}
 
-//	public String getAccount(Long id) {
-//		Accounts AccountInDB = findAccount(id);
-//		return util.getJSONForObject(AccountInDB);
-//
-//	}
+
 
 }
 

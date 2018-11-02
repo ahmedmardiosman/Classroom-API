@@ -27,13 +27,6 @@ public class Trainees {
 
 	}
 
-	
-
-//	@Override
-//	public String toString() {
-//		return "Accounts [id : " + id + ", firstName : " + firstName + ", lastName : " + lastName + ", accountNumber : "
-//				+ accountNumber + "]";
-//	}
 
 	
 

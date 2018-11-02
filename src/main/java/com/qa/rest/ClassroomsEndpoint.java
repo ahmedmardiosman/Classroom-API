@@ -20,38 +20,7 @@ public class ClassroomsEndpoint {
 		return service.getAllClassrooms();
 	}
 
-//	@Path("/addAccount")
-//	@POST
-//	@Produces({ "application/json" })
-//	public String addAccount(String account) {
-//		return service.addAccount(account);
-//	}
-//	
-//	@Path("/updateAccount/{id}")
-//	@PUT
-//	@Produces({ "application/json" })
-//	public String updateAccount(@PathParam("id") Long id, String account) {
-//		return service.updateAccount(id, account);
-//	}
-//	
-//	
-//	
-//	
-//	
-//
-//	@Path("/deleteAccount/{id}")
-//	@DELETE
-//	@Produces({ "application/json" })
-//	public String deleteAccount(@PathParam("id") Long id) {
-//		return service.deleteAccount(id);
-//	}
-//	
-//	@Path("/getAccount/{id}")
-//	@GET
-//	@Produces({ "application/json" })
-//	public String getAccount(@PathParam("id") Long id) {
-//		return service.getAccount(id);
-//	}
+
 	
 	
 	
