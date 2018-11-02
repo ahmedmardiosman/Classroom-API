@@ -27,7 +27,7 @@ public class ClassroomDBRepository implements ClassroomRepository {
 	private JSONUtil util;
 
 	public String getAllClassrooms() {
-		Query query = manager.createQuery("Select a FROM Accounts a");
+		Query query = manager.createQuery("Select a FROM Classrooms a");
 		Collection<Trainees> classes = (Collection<Trainees>) query.getResultList();
 		// Converting Object to JSON
 		return util.getJSONForObject(classes);

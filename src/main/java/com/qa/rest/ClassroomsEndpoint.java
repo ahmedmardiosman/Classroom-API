@@ -7,7 +7,7 @@ import javax.ws.rs.Produces;
 
 import com.qa.buisiness.service.ClassroomService;
 
-@Path("/account")
+@Path("/class")
 public class ClassroomsEndpoint {
 
 	@Inject
